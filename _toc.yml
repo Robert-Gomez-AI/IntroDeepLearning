@@ -3,19 +3,13 @@
 
 format: jb-book
 root: intro
-parts:
-- caption: Fundamentos de machine learning y deep learning
-  chapters :
+
+-chapters :
   - file: IntroML
   - file: FundamentosDL
   - file: ProgramacionNN
-- caption: Modelos en datos no estructurados
-  chapters:
   - file: ComputerVision
   - file: NLP
-
-- file: IntroGenerativeModels
-- file: Aplications
-- caption: Apendice
-  chapters:
+  - file: IntroGenerativeModels
+  - file: Aplications
   - file : linalg
